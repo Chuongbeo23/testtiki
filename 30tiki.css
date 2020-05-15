@@ -1,0 +1,56 @@
+div.banner {
+    display: flex;
+    width: 1115px;
+    margin: auto;
+}
+
+div.banner .c1 {
+    width: 218px;
+}
+
+div.banner .c1 .hang1 {
+    display: flex;
+}
+
+div.banner .c1 .hang1 .hangtrai {
+    width: 30px;
+}
+
+div.banner .c1 .hang1 .hangphai {
+    width: calc(100% - 30px);
+}
+
+div.banner .c2 {
+    width: 525px;
+}
+
+.banner .c2 .tren {
+    height: 330px;
+}
+
+.banner .c2 .duoi {
+    height: 160px;
+    display: flex;
+}
+
+.banner .c2 .duoi .motnua {
+    widows: 50%;
+}
+
+div.banner .c3 {
+    width: 372px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .c3 .saudiv {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+#s1 .carousel-indicators {
+    display: none;
+}
